@@ -43,7 +43,7 @@ if planeta in GRAVEDADES:
     #tenemos esta ubicación
     GRAVEDAD = GRAVEDADES [planeta]
 else:
-    print(f"Chuchi ese planeta no existe ve a la ESO, te pongo la {PLANETA_POR_DEFECTO}.")
+    print(f"Amigo ese planeta no existe, te pongo la {PLANETA_POR_DEFECTO} que te veo perdido.")
     GRAVEDAD = GRAVEDADES[PLANETA_POR_DEFECTO]
 
 #convertimos la funcion a python
@@ -58,4 +58,5 @@ altura_actual *= 1.0936
 if altura_actual <= 0: 
     print(f"El objeto ha crasheado en el suelo tontiiii")
 else:
-    print( f"La altura en el segundo {tiempo} del objeto es {altura_actual} en yardas. ehhehehe eres un traidor del imperio más grande del mundo el imperio Inglés GOD SAVE THE QUEEN")
+    print( f"La altura en el segundo {tiempo} del objeto es {altura_actual}; ehhehehe está en  yardas eres un traidor del imperio GOD SAVE THE QUEEN")
+
